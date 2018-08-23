@@ -1,9 +1,8 @@
-import React from 'react'
-import {  Route, Redirect } from 'react-router'
-import { HashRouter } from 'react-router-dom';
-
-import Dashboard from '../dashboard/dashboard'
+import React from 'react';
+import { Redirect, Route } from 'react-router';
 import Cadastro from '../cadastro/cadastro';
+import Dashboard from '../dashboard/dashboard';
+
 
 export default props => (
         <div>

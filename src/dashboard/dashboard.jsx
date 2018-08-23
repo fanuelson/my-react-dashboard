@@ -10,6 +10,10 @@ export default class Dashboard extends Component {
         return (
            <Page pageTitle="Dashboard" pageTitleSmall="lala">
 
+                <a className="btn btn-primary" > Salvar </a>
+                <a className="btn btn-danger" > Salvar </a>
+                <a className="btn btn-default" > Salvar </a>
+                <a className="btn btn-warning" > Salvar </a>
            </Page>
         )
     }
